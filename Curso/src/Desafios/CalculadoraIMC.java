@@ -17,14 +17,7 @@ public class CalculadoraIMC {
 
         System.out.println("Seu IMC é de " + imc);
 
-
-
-
-
-
-
-
-    entrada.close();
+        entrada.close();
 
 
 
