@@ -19,7 +19,5 @@ public class CalculadoraIMC {
 
         entrada.close();
 
-
-
     }
 }
