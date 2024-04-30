@@ -1,3 +1,5 @@
+package outros;
+
 import javax.swing.*;
 
 public class Conversao2 {
