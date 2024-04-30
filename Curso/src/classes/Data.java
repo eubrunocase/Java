@@ -12,6 +12,10 @@ public class Data {
         this.ano = anov1;
     }
 
+    public Data() {
+
+    }
+
     String obterData () {
 
     return String.format("%d/%d/%d", dia, mes, ano);
