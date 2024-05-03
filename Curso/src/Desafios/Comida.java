@@ -11,7 +11,4 @@ public class Comida {
         this.peso = peso;
     }
 
-
-
-
 }
