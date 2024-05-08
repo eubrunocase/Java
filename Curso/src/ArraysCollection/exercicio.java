@@ -15,6 +15,7 @@ public class exercicio {
         nomes[1] = "Zaira";
         nomes[2] = "Jhon";
         nomes[3] = "AAAA";
+        nomes[4] = "AAAAa";
 
 
         System.out.println(Arrays.toString(nomes));
