@@ -10,7 +10,6 @@ public class exercicio {
 
         System.out.println(Arrays.toString(nomes));
 
-
         nomes[0] = "Bruno";
         nomes[1] = "Zaira";
         nomes[2] = "Jhon";
