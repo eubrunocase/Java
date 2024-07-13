@@ -16,7 +16,7 @@ public class Desafio {
 
        for (int i = 0; i < notas.length; i++) {
            System.out.println("Informe a nota " + (i + 1) + " : ");
-           notas[i] = entrada.nextInt();
+           notas[i] = entrada.nextDouble();
        }
        double total = 0;
        for (double nota : notas) {
