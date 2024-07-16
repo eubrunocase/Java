@@ -5,11 +5,22 @@ public class Teste {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Informe a sua idade: ");
-        int idade = sc.nextInt();
+        System.out.println("Informe o numero: ");
+        int num = sc.nextInt();
 
-        String resultado = (idade >= 18) ? "Maior de idade" : "Menor de idade";
-        System.out.println(resultado);
+        num += 10;
+        System.out.println("Apos += 10: " + num);
 
+        num -= 10;
+        System.out.println("Apos -= 10: " + num);
+
+        num *= 10;
+        System.out.println("Apos *= 10: " + num);
+
+        num /= 10;
+        System.out.println("Apos /= 10: " + num);
+
+        num %= 10;
+        System.out.println("Apos %= 10: " + num);
     }
 }
