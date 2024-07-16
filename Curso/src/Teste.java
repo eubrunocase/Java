@@ -5,22 +5,24 @@ public class Teste {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Informe o numero: ");
-        int num = sc.nextInt();
+        System.out.println("Digite o caractere");
+        String input = sc.nextLine();
 
-        num += 10;
-        System.out.println("Apos += 10: " + num);
 
-        num -= 10;
-        System.out.println("Apos -= 10: " + num);
+    switch (input) {
+        case "a":
+            System.out.println("Vogal"); break;
+        case "e":
+            System.out.println("Vogal"); break;
+        case "i":
+            System.out.println("Vogal"); break;
+        case "o":
+            System.out.println("Vogal"); break;
+        case "u":
+            System.out.println("Vogal"); break;
+        default:
+            System.out.println("Consoante");
+    }
 
-        num *= 10;
-        System.out.println("Apos *= 10: " + num);
-
-        num /= 10;
-        System.out.println("Apos /= 10: " + num);
-
-        num %= 10;
-        System.out.println("Apos %= 10: " + num);
     }
 }
