@@ -1,28 +1,28 @@
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Teste {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Digite o caractere");
-        String input = sc.nextLine();
+        System.out.println("Informe a quantidade de itens: ");
+        int produtos = sc.nextInt();
+
+        String [] itens = new String[produtos];
+
+        for (int i = 0; i < produtos; i++) {
+            System.out.println("Informe o nome do produto " + (i + 1) + ": ");
+            itens[i] = sc.next();
+        }
+
+    String exibir = Arrays.toString(itens);
+
+        System.out.println(exibir);
 
 
-    switch (input) {
-        case "a":
-            System.out.println("Vogal"); break;
-        case "e":
-            System.out.println("Vogal"); break;
-        case "i":
-            System.out.println("Vogal"); break;
-        case "o":
-            System.out.println("Vogal"); break;
-        case "u":
-            System.out.println("Vogal"); break;
-        default:
-            System.out.println("Consoante");
-    }
+
+
 
     }
 }
