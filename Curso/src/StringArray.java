@@ -1,8 +1,7 @@
-
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Teste {
+public class StringArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -19,10 +18,6 @@ public class Teste {
     String exibir = Arrays.toString(itens);
 
         System.out.println(exibir);
-
-
-
-
 
     }
 }
