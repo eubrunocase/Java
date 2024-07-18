@@ -15,9 +15,9 @@ public class StringArray {
             itens[i] = sc.next();
         }
 
-    String exibir = Arrays.toString(itens);
+    String view = Arrays.toString(itens);
 
-        System.out.println(exibir);
+        System.out.println(view);
 
     }
 }

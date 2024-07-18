@@ -4,36 +4,30 @@ public class Product {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Digite um numero (1 a 12): ");
-        int num = sc.nextInt();
+        int[] numeros = new int[10];
 
-        switch (num) {
-            case 1:
-                System.out.println("Janeiro"); break;
-            case 2:
-                System.out.println("Fevereiro"); break;
-            case 3:
-                System.out.println("Marco"); break;
-            case 4:
-                System.out.println("Abril"); break;
-            case 5:
-                System.out.println("Maio"); break;
-            case 6:
-                System.out.println("Junho"); break;
-            case 7:
-                System.out.println("Julho"); break;
-            case 8:
-                System.out.println("Agosto"); break;
-            case 9:
-                System.out.println("Setembro"); break;
-            case 10:
-                System.out.println("Outubro"); break;
-            case 11:
-                System.out.println("Novembro"); break;
-            case 12:
-                System.out.println("Dezembro"); break;
-            default:
-                System.out.println("Numero invalido");
+        // Ler os números e armazenar no array
+        for (int i = 0; i < 10; i++) {
+            System.out.print("Digite um número: ");
+            numeros[i] = sc.nextInt();
         }
+
+        int maior = numeros[0];
+        int menor = numeros[0];
+
+        // Encontrar o maior e o menor número no array
+        for (int i = 1; i < 10; i++) {
+            if (numeros[i] > maior) {
+                maior = numeros[i];
+            }
+            if (numeros[i] < menor) {
+                menor = numeros[i];
+            }
+        }
+
+        System.out.println("O maior número é: " + maior);
+        System.out.println("O menor número é: " + menor);
+
+
     }
 }
