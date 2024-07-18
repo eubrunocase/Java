@@ -1,5 +1,6 @@
 package ArraysCollection;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Matriz {
@@ -23,6 +24,13 @@ public class Matriz {
         }
 
         System.out.println("Media da turma: " +  total / aluno);
+
+        for (double [] notas : notasTurma) {
+        System.out.println(Arrays.toString(notas));
+
+        }
+
+
 
 
     }
