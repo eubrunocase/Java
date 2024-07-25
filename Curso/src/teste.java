@@ -21,8 +21,7 @@ public class teste {
         Object rest4 = obj.primo(7);
         System.out.println(rest4);
 
-        Object rest5 = obj.teste(6);
-        System.out.println(rest5);
+
 
     }
 }

@@ -35,11 +35,6 @@ public class Func {
         }
 
 
-        public boolean teste (int a) {
-         if (a / 1 == a || a / a == 1) {
-                 return true;
-          }  return false;
-        }
 
 
 
