@@ -1,22 +1,21 @@
 package classes;
 
-import java.util.Objects;
-
 public class user {
 
     String nome;
     String email;
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        user user = (user) o;
-        return Objects.equals(nome, user.nome) && Objects.equals(email, user.email);
+
+    public boolean equals(Object objeto) {
+       user outro = (user)objeto;
+
+          return outro.nome.equalsIgnoreCase(this.nome) && outro.email.equalsIgnoreCase(this.email);
     }
 
-    @Override
+
     public int hashCode() {
-        return Objects.hash(nome, email);
+        return this.nome.length();
     }
+
+
 }

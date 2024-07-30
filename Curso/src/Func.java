@@ -1,9 +1,12 @@
 
 public class Func {
 
+
+
     public int soma (int a, int b) {
                return a + b;
         }
+
 
         public Object descricao (String nome, int idade) {
                return "Nome: " + nome + ", idade " + idade;
